@@ -37,6 +37,16 @@ Les trames à évaluer:
 
 - Delta: [0,"tcp","http","SF",277,4968,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,13,13,0,0,0,0,1,0,0,13,255,1,0,0.08,0.01,0,0,0,0]
 
+## Pour commencer
+
+Le service IBM AutoAI est disponible dans un projet Watson Studio.
+
+Indice 1:
+
+Indice 2:
+
+Indice 3: 
+
 ## Post-Analyse
 
 Il vous faut ensuite saisir dans l'interface le nom du site.
