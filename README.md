@@ -41,11 +41,11 @@ Les trames à évaluer:
 
 Le service IBM AutoAI est disponible dans un projet Watson Studio.
 
-Indice 1:
+Indice 1
 
-Indice 2:
+Indice 2 
 
-Indice 3: 
+Indice 3 
 
 ## Post-Analyse
 
