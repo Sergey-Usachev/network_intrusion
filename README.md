@@ -43,8 +43,6 @@ Aller dans l'interface Watson Studio, les données ont été uploadés dans le p
 
 [Indice 2](https://github.com/vperrinfr/network_intrusion/blob/master/indice2.md)
 
-[Indice 3](https://github.com/vperrinfr/network_intrusion/blob/master/indice3.md)
-
 ## Post-Analyse
 
 Il vous faut ensuite saisir dans l'interface le nom du site.
