@@ -17,8 +17,6 @@ Nos sites ouvrent dans 10 minutes, une nouvelle intrusion de l'espion pourrait n
 
 La situation étant sensible, les sites sont référencés par leurs noms de code: Alpha, Bravo, Charlie, Delta
 
-Pour info, il semblerait qu'il existe une solution d'automatisation de conception de modèle de Machine Learning qui fasse des merveilles: [IBM AutoAI](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai-overview.html)
-
 Merci d'avance de votre discrétion
 
 Bonne chance on compte sur vous...
@@ -41,11 +39,11 @@ Les trames à évaluer:
 
 Le service IBM AutoAI est disponible dans un projet Watson Studio.
 
-Indice 1
+[Indice 1](https://github.com/vperrinfr/network_intrusion/blob/master/indice1.md)
 
-Indice 2 
+[Indice 2](https://github.com/vperrinfr/network_intrusion/blob/master/indice2.md)
 
-Indice 3 
+[Indice 3](https://github.com/vperrinfr/network_intrusion/blob/master/indice3.md)
 
 ## Post-Analyse
 
