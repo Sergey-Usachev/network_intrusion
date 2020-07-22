@@ -59,18 +59,20 @@ From the model details page:
   - After you save the deployment, click on the deployment name to view the deployment details page.
 
 ### Step 3: Test the deployed model
-You can test the deployed model from the deployment details page in two ways:
+You can test the deployed model from the deployment details page in **three** ways:
 
 ### Test with a form
 On the Test tab of the deployment details page, click the icon to Provide input data using form, enter test data, and click Predict to see the result.
 
+![autoai-test-with-form.png](https://github.com/vperrinfr/network_intrusion/blob/master/images/autoai-test-with-form.png)
+
 ### Test with JSON code
 On the Test tab of the deployment details page, click the icon to Provide input data as JSON and enter the following test data:
-{"input_data":[{
-        "fields": ["age","job","marital","education","default","balance","housing","loan","contact","day", "month","duration","campaign","pdays","previous","poutcome"],
-        "values": [[27,"unemployed", "married", "primary", "no",1787,"no", "no","cellular",19,"oct", 79, 1, -1, 0, "unknown" ]]
-}]}
 
-Note that the test data replicates the data fields for the model with the exception of the prediction field.
+```{"input_data": [{"fields": ["duration", "protocol_type", "service", "flag", "src_bytes", "dst_bytes", "land", "wrong_fragment", "urgent", "hot", "num_failed_logins", "logged_in", "num_compromised", "root_shell", "su_attempted", "num_root", "num_file_creations", "num_shells", "num_access_files", "num_outbound_cmds", "is_host_login", "is_guest_login", "count", "srv_count", "serror_rate", "srv_serror_rate", "rerror_rate", "srv_rerror_rate", "same_srv_rate", "diff_srv_rate", "srv_diff_host_rate", "dst_host_count", "dst_host_srv_count", "dst_host_same_srv_rate", "dst_host_diff_srv_rate", "dst_host_same_src_port_rate", "dst_host_srv_diff_host_rate", "dst_host_serror_rate", "dst_host_srv_serror_rate", "dst_host_rerror_rate", "dst_host_srv_rerror_rate"], "values": [[**ARRAY_OF_VALUES**]}]}```
 
-Click Predict to predict
+### Test with a Notebook
+
+You can easily call the deployed model through a Jupyter Notebook.
+
+![notebook.png](https://github.com/vperrinfr/network_intrusion/blob/master/images/notebook.png)
