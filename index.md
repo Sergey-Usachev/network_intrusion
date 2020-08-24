@@ -3,6 +3,8 @@
 Juste après votre arrivée au bureau, vous venez dans votre messagerie l'email suivant de votre manager marqué ***URGENT***
 Vous avez 10 min pour le traiter et résoudre le problème.
 
+![intrusion](https://github.com/vperrinfr/network_intrusion/blob/master/images/intrusion.png)
+
 ## <u>Email</u>
 
 Bonjour,
