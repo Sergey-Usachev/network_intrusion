@@ -1,37 +1,46 @@
-## Welcome to GitHub Pages
+# Détection d'intrus
 
-You can use the [editor on GitHub](https://github.com/vperrinfr/network_intrusion/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Juste après votre arrivée au bureau, vous venez dans votre messagerie l'email suivant de votre manager marqué ***URGENT***
+Vous avez 10 min pour le traiter et résoudre le problème.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## <u>Email</u>
 
-### Markdown
+Bonjour,
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Nous avons régulièrement des attaques sur notre réseau informatique. Mais aujourd'hui, nous savous qu'un espion a eu accès à un de nos sites. Nous avons besoin de votre aide. Nous avons récuperer les informations sur les trames pour chacun des 4 sites. Pourriez vous nous dire sur quel site se trouve l'espion ?
 
-```markdown
-Syntax highlighted code block
+Notre équipe IT vous a exporté un fichier d'historique de connexion provenant de notre IDS (Intrusion Dectection System). Nos sites ouvrent dans 10 minutes, une nouvelle intrusion de l'espion pourrait nous couter cher.
 
-# Header 1
-## Header 2
-### Header 3
+La situation étant sensible, les sites sont référencés par leurs noms de code: Alpha, Bravo, Charlie, Delta
 
-- Bulleted
-- List
+Il vous faudra ensuite saisir dans l'interface le nom du site considéré
 
-1. Numbered
-2. List
+Merci d'avance de votre discrétion
 
-**Bold** and _Italic_ and `Code` text
+Bonne chance on compte sur vous...
 
-[Link](url) and ![Image](src)
-```
+![image-20200824161301556](/assets/image-20200824161301556.png)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## OBJECTIF DE LA MISSION : LOCALISER LE SITE INFECTE
 
-### Jekyll Themes
+### Fichiers
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vperrinfr/network_intrusion/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Historique de log: [données analysée](https://github.com/vperrinfr/network_intrusion/blob/master/data/Train_data.csv)
 
-### Support or Contact
+Les trames des différents sites à évaluer: 
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- **Alpha** : 0,"tcp","http","SF",233,2239,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,1,0,0,255,197,0.77,0.02,0,0,0,0,0,0
+
+- **Bravo** : 31,"tcp","telnet","SF",197,1608,0,0,0,1,0,1,1,0,0,1,2,1,0,0,0,0,1,1,0,0,0,0,1,0,0,248,32,0.13,0.03,0,0,0,0,0,0
+
+- **Charlie** : 0,"tcp","systat","S0",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,239,20,1,1,0,0,0.08,0.07,0,255,20,0.08,0.08,0,0,1,1,0,0
+
+- **Delta** : 0,"tcp","http","SF",277,4968,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,13,13,0,0,0,0,1,0,0,13,255,1,0,0.08,0.01,0,0,0,0
+
+## Pour commencer
+
+Aller dans l'interface Watson Studio, les données ont été uploadés dans le projet **Network_Intrusion_XX**
+
+[Indice 1](https://github.com/vperrinfr/network_intrusion/blob/master/indice1.md)
+
+[Indice 2](https://github.com/vperrinfr/network_intrusion/blob/master/indice2.md)
