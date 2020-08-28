@@ -8,7 +8,7 @@ Cher joueur, vous revenez de recevoir cet email.
 
 Bonjour,
 
-Nous avons régulièrement des attaques sur notre réseau informatique. Mais aujourd'hui, nous savous qu'un espion a eu accès 
+Nous avons régulièrement des attaques sur notre réseau informatique. Mais aujourd'hui, nous savons qu'un espion a eu accès 
 à un de nos sites. Nous avons besoin de votre aide. Nous avons récuperer les informations sur les trames pour chacun des 4 sites.
 Pourriez vous nous dire sur quel site se trouve l'espion ? 
 
