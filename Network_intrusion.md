@@ -1,4 +1,4 @@
-# Задание: Обнаружение нарушителя
+# Задание: Обнаружение сайта нарушителя
 
 ![intrusion](https://github.com/Sergey-Usachev/network_intrusion/blob/master/images/intrusion.png)
 
