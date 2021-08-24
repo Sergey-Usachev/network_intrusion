@@ -1,6 +1,6 @@
-# Détection d'intrus
+# Обнаружение нарушителя
 
-![intrusion](https://github.com/vperrinfr/network_intrusion/blob/master/images/intrusion.png)
+![intrusion](https://github.com/Sergey-Usachev/network_intrusion/blob/master/images/intrusion.png)
 
 привет! Cher joueur, vous revenez de recevoir cet email.
 
