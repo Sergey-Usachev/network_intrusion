@@ -2,24 +2,21 @@
 
 ![intrusion](https://github.com/Sergey-Usachev/network_intrusion/blob/master/images/intrusion.png)
 
-привет! Cher joueur, vous revenez de recevoir cet email.
+Уважаемый участник, вы вернулись и получили это письмо.
 
 ## Email
 
-Bonjour,
+Привет,
 
-Nous avons régulièrement des attaques sur notre réseau informatique. Mais aujourd'hui, nous savons qu'un espion a eu accès 
-à un de nos sites. Nous avons besoin de votre aide. Nous avons récuperer les informations sur les trames pour chacun des 4 sites.
-Pourriez vous nous dire sur quel site se trouve l'espion ? 
+У нас регулярно происходят атаки на нашу компьютерную сеть. Но сегодня мы знаем, что шпион получил доступ к одному из наших сайтов. Нам нужна твоя помощь. Мы получаем информацию о фреймах для каждого из 4 сайтов. Не могли бы вы сказать нам, на каком сайте находится шпион?
 
-Notre équipe IT vous a exporté un fichier d'historique de connexion provenant de notre IDS (Intrusion Dectection System).
-Nos sites ouvrent dans 10 minutes, une nouvelle intrusion de l'espion pourrait nous couter cher.
+Наша ИТ-команда экспортировала вам файл истории подключений из нашей IDS (системы обнаружения вторжений). Наши сайты открываются через 10 минут, повторное вторжение со стороны шпиона может дорого обойтись.
 
-La situation étant sensible, les sites sont référencés par leurs noms de code: Alpha, Bravo, Charlie, Delta
+В связи с деликатной ситуацией сайты упоминаются под кодовыми названиями: Alpha, Bravo, Charlie, Delta.
 
-Merci d'avance de votre discrétion
+Заранее благодарим вас за ваше усмотрение
 
-Bonne chance on compte sur vous...
+Удачи, мы на тебя рассчитываем ...
 
 ## Fichiers
 
