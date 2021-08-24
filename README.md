@@ -2,7 +2,7 @@
 
 ![intrusion](https://github.com/vperrinfr/network_intrusion/blob/master/images/intrusion.png)
 
-Cher joueur, vous revenez de recevoir cet email.
+привет! Cher joueur, vous revenez de recevoir cet email.
 
 ## Email
 
