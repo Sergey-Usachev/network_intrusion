@@ -18,11 +18,11 @@
 
 Удачи, мы на тебя рассчитываем ...
 
-## Fichiers
+## Файлы
 
-Historique de log: [données analysée](https://github.com/vperrinfr/network_intrusion/blob/master/data/Train_data.csv)
+История логов: [Проанализированные данные](https://github.com/Sergey-Usachev/network_intrusion/blob/master/data/Train_data.csv)
 
-Les trames des différents sites à évaluer: 
+Фреймы различных сайтов, подлежащих оценке: 
 
 - **Alpha** : 0,"tcp","http","SF",233,2239,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,1,0,0,255,197,0.77,0.02,0,0,0,0,0,0
 
@@ -32,14 +32,10 @@ Les trames des différents sites à évaluer:
 
 - **Delta** : 0,"tcp","http","SF",277,4968,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,13,13,0,0,0,0,1,0,0,13,255,1,0,0.08,0.01,0,0,0,0
 
-## Pour commencer
+## Начать
 
-Aller dans l'interface Watson Studio, les données ont été uploadés dans le projet **Network_Intrusion_XX**
+Заходим в интерфейс Watson Studio, данные загружены в проект ** Network_Intrusion_XX **
 
-[Indice 1](https://github.com/vperrinfr/network_intrusion/blob/master/indice1.md)
+[Приложение 1](https://github.com/Sergey-Usachev/network_intrusion/blob/master/indice1.md)
 
-[Indice 2](https://github.com/vperrinfr/network_intrusion/blob/master/indice2.md)
-
-## Post-Analyse
-
-Il vous faut ensuite saisir dans l'interface le nom du site.
+[Приложение 2](https://github.com/Sergey-Usachev/network_intrusion/blob/master/indice2.md)
