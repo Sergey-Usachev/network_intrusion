@@ -28,10 +28,6 @@
 
 * 1.3 Обучить модель
 Столбец с надписью «CLASS» автоматически выбирается для модели. Метрика по умолчанию для двоичной классификации - ROC / AUC.
-  - Choosing a prediction column
-  - Click Run experiment. As the model trains, you will see an infographic that shows the process of building the pipelines.
-  - Building model pipelines
-  
   - Выбор столбца с прогнозируемым значением (prediction column)
   - Щелкните Запустить эксперимент (Run experiment). По мере обучения модели вы увидите инфографику, показывающую процесс построения конвейера (пайплайна).
   - Построение конвейеров (пайплайнов) моделирования
@@ -52,33 +48,33 @@
 
 Вы можете развернуть модель на странице сведений о модели. Вы можете получить доступ к странице сведений о модели одним из следующих способов:
 
-Click on the model name in the notification displayed when you save the model.
-Open the Assets page for the project containing the model and click the model name in the Machine Learning Model section.
-From the model details page:
+Щелкните название модели в уведомлении, отображаемом при сохранении модели.
+Откройте страницу Assets для проекта, содержащего модель, и щелкните имя модели в разделе Machine Learning Model.
+На странице сведений о модели:
 
-  - Click the Deployments tab.
-  - Click Add Deployment.
-  - In the page that opens, fill in the fields:
-      - Specify a name for the deployment.
-      - Select “Web service” as the Deployment type.
-      - Click Save.
-  - After you save the deployment, click on the deployment name to view the deployment details page.
+   - Щелкните вкладку Развертывания (Deployments).
+   - Щелкните Добавить развертывание (Add Deployment).
+   - На открывшейся странице заполните поля:
+       - Укажите имя для развертывания (Deployment).
+       - Выберите «Веб-сервис» в качестве типа развертывания.
+       - Щелкните Сохранить.
+   - После сохранения развертывания щелкните имя развертывания, чтобы просмотреть страницу сведений о развертывании.
 
 ### Шаг 3: Протестировать опубликованную модель
-You can test the deployed model from the deployment details page in **three** ways:
+Вы можете протестировать развернутую модель на странице сведений о развертывании ** тремя ** способами:
 
-### Test with a form
-On the Test tab of the deployment details page, click the icon to Provide input data using form, enter test data, and click Predict to see the result.
+### Тестирование с формой
+На вкладке «Тест» (Test tab) страницы сведений о развертывании щелкните значок «Предоставить входные данные с помощью формы» (Provide input data using form), введите данные теста и нажмите «Прогнозировать» (Predict), чтобы увидеть результат.
 
 ![autoai-test-with-form.png](https://github.com/vperrinfr/network_intrusion/blob/master/images/autoai-test-with-form.png)
 
-### Test with JSON code
-On the Test tab of the deployment details page, click the icon to Provide input data as JSON and enter the following test data:
+### Тестирование с JSON
+На вкладке «Тест» (Test tab) страницы сведений о развертывании щелкните значок «Предоставить входные данные в формате JSON» (Provide input data as JSON ) и введите следующие тестовые данные:
 
 ```{"input_data":[{"fields": ["duration", "protocol_type", "service", "flag", "src_bytes", "dst_bytes", "land", "wrong_fragment", "urgent", "hot", "num_failed_logins", "logged_in", "num_compromised", "root_shell", "su_attempted", "num_root", "num_file_creations", "num_shells", "num_access_files", "num_outbound_cmds", "is_host_login", "is_guest_login", "count", "srv_count", "serror_rate", "srv_serror_rate", "rerror_rate", "srv_rerror_rate", "same_srv_rate", "diff_srv_rate", "srv_diff_host_rate", "dst_host_count", "dst_host_srv_count", "dst_host_same_srv_rate", "dst_host_diff_srv_rate", "dst_host_same_src_port_rate", "dst_host_srv_diff_host_rate", "dst_host_serror_rate", "dst_host_srv_serror_rate", "dst_host_rerror_rate", "dst_host_srv_rerror_rate"], "values": [**ARRAY_OF_VALUES**]}]}```
 
-### Test with a Notebook
+### Тестирование с Jupyter Notebook
 
-You can easily call the deployed model through a Jupyter Notebook.
+Вы можете легко вызвать развернутую модель через Jupyter Notebook.
 
 ![notebook.png](https://github.com/vperrinfr/network_intrusion/blob/master/images/notebook.png)
