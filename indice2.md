@@ -9,43 +9,48 @@
 Из этого руководство  Вы узнаете - как взять модель, построенную в AutoAI, развернуть и оценить полученную модель, а также увидеть, как формируется прогноз. 
 Выполните следующие действия в Watson Studio:
 
-* Build and train the model
-* Deploy the trained model
-* Test the deployed model
+* Построить и обучить модель
+* Опубликовать обученную модель
+* Протестировать опубликованную модель
 
-### Step 1: Build and train the model
-* 1.1 Specify basic model details
-From the Assets page of your project in Watson Studio, click Add to project and choose AUTOAI EXPERIMENT.
-In the page that opens, fill in the basic fields:
-  - Specify a name and optional description for your new model.
-  - Choose From Sample and click the Bank marketing sample data.
-  - Building from sample data
-  - Confirm that the IBM Watson Machine Learning service instance that you associated with your project is selected in the Machine Learning Service section.
-  - Click Create.
-* 1.2 Add training data
+### Шаг 1: Построить и обучить модель
+* 1.1 Укажите основные сведения о модели
+На странице Assets вашего проекта в Watson Studio нажмите "Add to project" ("Добавить в проект") и выберите AUTOAI EXPERIMENT.
+На открывшейся странице заполните основные поля:
+   - Укажите имя и необязательное описание для вашей новой модели.
+   - Выберите «Из образца» ("From Sample" )и щелкните «Данные банковского маркетингового образца» (Bank marketing sample data).
+   - Построение на основе сэмпла данных
+   - Убедитесь, что экземпляр службы IBM Watson Machine Learning , связанный с вашим проектом, выбран в разделе Machine Learning Service.
+   - Нажмите "Создать".
+* 1.2 Добавить данные для обучения
 
 ![training](https://github.com/vperrinfr/network_intrusion/blob/master/images/autoai_bank_sample_data.png)
 
-* 1.3 Train the model
-In the guided experience, the column labeled “CLASS” is automatically selected for the model. The default metric for a binary classification is ROC/AUC.
+* 1.3 Обучить модель
+Столбец с надписью «CLASS» автоматически выбирается для модели. Метрика по умолчанию для двоичной классификации - ROC / AUC.
   - Choosing a prediction column
   - Click Run experiment. As the model trains, you will see an infographic that shows the process of building the pipelines.
   - Building model pipelines
-For a list of algorithms, or estimators, available with each machine learning technique in AutoAI, see: [AutoAI implementation detail](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai-details.html?audience=wdp)
+  
+  - Выбор столбца с прогнозируемым значением (prediction column)
+  - Щелкните Запустить эксперимент (Run experiment). По мере обучения модели вы увидите инфографику, показывающую процесс построения конвейера (пайплайна).
+  - Построение конвейеров (пайплайнов) моделирования
+
+Список алгоритмов или оценок, доступных для каждого метода машинного обучения в AutoAI, см.: [Детали внедрения AutoAI](https://dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/autoai-details.html?audience=wdp)
 
 ![autoai_bank_sample_pipeline_build](https://github.com/vperrinfr/network_intrusion/blob/master/images/autoai_bank_sample_pipeline_build2.png)
 
-* 1.4 Choose a pipeline
-Once the pipeline creation is complete, you can view and compare the ranked pipelines in a leaderboard.
+* 1.4 Выбор конвейера
+После завершения создания конвейера вы можете просмотреть и сравнить ранжированные конвейеры в таблице лидеров (leaderboard).
 
 ![leaderboard](https://github.com/vperrinfr/network_intrusion/blob/master/images/autoai_bank_sample_leaderboard2.png)
 
-Choose Save model from the action menu for the pipeline with a rank of 1. This saves the pipeline as a Machine Learning asset in your project.
+Выберите «Сохранить модель» ("Save model") в меню действий для конвейера с рангом 1. При этом конвейер будет сохранен как актив машинного обучения в вашем проекте.
 
-### Step 2: Deploy the trained model
-Before you can use your trained model to make predictions on new data, you must deploy the model.
+### Шаг 2: Опубликовать обученную модель
+Прежде чем вы сможете использовать свою обученную модель для прогнозирования новых данных, вы должны опубликовать модель.
 
-You can deploy the model from the model details page. You can access the model details page in one of these ways:
+Вы можете развернуть модель на странице сведений о модели. Вы можете получить доступ к странице сведений о модели одним из следующих способов:
 
 Click on the model name in the notification displayed when you save the model.
 Open the Assets page for the project containing the model and click the model name in the Machine Learning Model section.
@@ -59,7 +64,7 @@ From the model details page:
       - Click Save.
   - After you save the deployment, click on the deployment name to view the deployment details page.
 
-### Step 3: Test the deployed model
+### Шаг 3: Протестировать опубликованную модель
 You can test the deployed model from the deployment details page in **three** ways:
 
 ### Test with a form
