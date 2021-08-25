@@ -1,12 +1,13 @@
-When you create an AutoAI experiment, you can work with sample data to see how AutoAI works. 
+При создании эксперимента AutoAI, вы можете подключить сэмпл данных. Это позволит увидеть весь процесс AutoAI.
 
-This topic describes how you can save a pipeline as a Watson Machine Learning model, deploy the model, and score it to view a prediction.
+В этом разделе описывается, как сохранить конвейер (пайплайн) как модель Watson Machine Learning, опубликовать модель и использовать ее для скоринга и последующего просмотра результатов прогнозирования.
 
-## Prerequisite
-Create a project in Watson Studio with an associated Machine Learning Service instance
+## Предварительное условие
+Создайте проект в Watson Studio со связанным экземпляром службы Machine Learning Service.
 
-## Steps overview
-This tutorial works in concert with the guided experience in the AutoAI tool and describes how to take the sample model built in the AutoAI Experiment builder and deploy and score the resulting model to see how a prediction is generated. Follow these steps in Watson Studio:
+## Обзор действий
+Из этого руководство  Вы узнаете - как взять модель, построенную в AutoAI, развернуть и оценить полученную модель, а также увидеть, как формируется прогноз. 
+Выполните следующие действия в Watson Studio:
 
 * Build and train the model
 * Deploy the trained model
