@@ -34,7 +34,7 @@
 
 ## Начинаем
 
-Заходим в интерфейс Watson Studio (данные загружены в проект ** Network_Intrusion_XX **)
+Заходим в интерфейс Watson Studio
 
 [Приложение 1](https://github.com/Sergey-Usachev/network_intrusion/blob/master/indice1.md)
 
